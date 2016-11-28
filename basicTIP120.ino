@@ -16,8 +16,8 @@ void setup()
 
 void loop()
 {
-    // By changing values from 0 to 255 you can control motor speed/ or LED light (dimming)
-//Just an example for using PWM on attiny with PIN0. (If used with LED it will dim)
+// By changing values from 0 to 255 you can control motor speed or perhaps LED light (eg dimming)
+//Using PWM on ATtiny85 PIN 0. (Code tested with led tape)
   pinMode(TIP120pin, OUTPUT); 
   analogWrite(TIP120pin, 255); 
   delay(5000);
