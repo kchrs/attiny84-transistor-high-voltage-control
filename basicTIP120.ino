@@ -8,14 +8,11 @@
 
 // Define which pin to be used to communicate with Base pin of TIP120 transistor
 int TIP120pin = 0; //Use Attiny85 0 pin for controlling TIP120
-void setup()
-{
-  pinMode(TIP120pin, OUTPUT); // Set pin for output to control TIP120 Base pin
-  
+void setup() {
+  pinMode(TIP120pin, OUTPUT); // Set pin for output to control TIP120 Base pin  
 }
 
-void loop()
-{
+void loop() {
 // By changing values from 0 to 255 you can control motor speed or perhaps LED light (eg dimming)
 //Using PWM on ATtiny85 PIN 0. (Code tested with led tape)
   pinMode(TIP120pin, OUTPUT); 
