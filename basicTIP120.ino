@@ -1,4 +1,6 @@
-//The idea is to control high voltage with TIP120 transistor with attiny85 (arduino compatible inexpensive  2 dolar chip :-)
+//The idea is to control high voltage devices with using PWM 
+//with TIP120 POWER TRANSISTOR(5.0A,60-100V,65W)http://html.alldatasheet.com/html-pdf/5762/MOTOROLA/TIP120/257/1/TIP120.html 
+//with attiny85 chip http://www.atmel.com/devices/attiny85.aspx
 
 // Define which pin to be used to communicate with Base pin of TIP120 transistor
 int TIP120pin = 0; //Use Attiny85 0 pin for controlling TIP120
