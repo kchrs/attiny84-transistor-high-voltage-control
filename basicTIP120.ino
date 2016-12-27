@@ -13,12 +13,17 @@ void loop() {
 
   pinMode(TIP120pin, OUTPUT); 
   analogWrite(TIP120pin, 255); 
-  delay(5000);
+  delay(2000);
   analogWrite(TIP120pin, 100);
-  delay(5000);
+  delay(2000);
   analogWrite(TIP120pin, 50);
-  delay(5000);
+  delay(2000);
   analogWrite(TIP120pin, 0);
-  delay(5000);
+  delay(2000);
+  pinMode(TIP120pin, OUTPUT); 
+  analogWrite(TIP120pin, 50); 
+  delay(2000);
+  analogWrite(TIP120pin, 100);
+  delay(2000);     
 }
 
