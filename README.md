@@ -1,4 +1,4 @@
-# attiny84-transistor-high-current-control
+## attiny84-transistor-high-voltage-control
 
 
 ### The concept is to control high voltage devices (over 5v) with TIP120 power transistor and attiny85 arduino compatible chip.
