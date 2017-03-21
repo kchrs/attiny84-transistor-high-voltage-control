@@ -9,11 +9,11 @@
 #2 Go through instructable  to get familiar with TIP120 transistor controlled by arduino-> http://www.instructables.com/id/Use-Arduino-with-TIP120-transistor-to-control-moto/ 
 
 #3 Combine the above knowledge by using the file provided (basicTIP120.ino) and make the correct connections (circuit will be provided, but in essence it is a simplified version of the above examples).
-# Define which pin to be used to communicate with Base pin of TIP120 transistor
-# TIP120pin = 0; Use Attiny85 0 pin for controlling TIP120
+#### Define which pin to be used to communicate with Base pin of TIP120 transistor
+#### TIP120pin = 0; Use Attiny85 0 pin for controlling TIP120
 
 
-# By changing values from 0 to 255 you can control  LED light (eg make it dim)or perhaps controlling speed of a motor, using PWM on ATtiny85 PIN 0. 
+#### By changing values from 0 to 255 you can control  LED light (eg make it dim)or perhaps controlling speed of a motor, using PWM on ATtiny85 PIN 0. 
 
 (I used a 12V - LED tape for running the example) and the result is  a simplified version of the  arduino TIP120 transistor example (staed above).
 
