@@ -4,11 +4,11 @@
 ### The concept is to control high voltage devices (over 5v) with TIP120 power transistor and attiny85 arduino compatible chip.
 
 
-#1  Program attiny85 with arduino in order to get familiar with uploading arduino code to attiny chip-> https://www.hackster.io/arjun/programming-attiny85-with-arduino-uno-afb829
+#### 1  Program attiny85 with arduino in order to get familiar with uploading arduino code to attiny chip-> https://www.hackster.io/arjun/programming-attiny85-with-arduino-uno-afb829
 
-#2 Go through instructable  to get familiar with TIP120 transistor controlled by arduino-> http://www.instructables.com/id/Use-Arduino-with-TIP120-transistor-to-control-moto/ 
+#### 2 Go through instructable  to get familiar with TIP120 transistor controlled by arduino-> http://www.instructables.com/id/Use-Arduino-with-TIP120-transistor-to-control-moto/ 
 
-#3 Combine the above knowledge by using the file provided (basicTIP120.ino) and make the correct connections (circuit will be provided, but in essence it is a simplified version of the above examples).
+#### 3 Combine the above knowledge by using the file provided (basicTIP120.ino) and make the correct connections (circuit will be provided, but in essence it is a simplified version of the above examples).
 #### Define which pin to be used to communicate with Base pin of TIP120 transistor
 #### TIP120pin = 0; Use Attiny85 0 pin for controlling TIP120
 
